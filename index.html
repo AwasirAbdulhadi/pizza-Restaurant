@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pizza | Awasir AbdulHadi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav>
+          <a href="#"><img src="imges/logo.jpg" alt="" /></a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="banner" id="home">
+      <h1 data-aos="fade-right">Welcome in <br />pizza Restaurant</h1>
+    </main>
+    <!--  start menu  -->
+    <section class="menu" id="menu">
+      <h1 class="title">Our Menu</h1>
+      <div class="img-menu">
+        <div class="menu-item" data-aos="fade-up-right">
+          <img src="imges/pi (5).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="menu-item" data-aos="zoom-in">
+          <img src="imges/p (6).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="menu-item" data-aos="fade-left">
+          <img src="imges/pi (7).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="menu-item" data-aos="fade-up-right">
+          <img src="imges/pi (8).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="menu-item" data-aos="zoom-in">
+          <img src="imges/pi (9).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="menu-item" data-aos="fade-left">
+          <img src="imges/pi (10).jpg" alt="" />
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-text" data-aos="fade-up-right">
+        <h1 class="title">About Us</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+          eveniet repellat deleniti nostrum sed enim, iure tempore, incidunt
+          error aliquid est quam aperiam distinctio dolor ut voluptatem.
+          Deleniti, laborum mollitia!
+        </p>
+      </div>
+    </section>
+    <!-- start services-->
+    <section class="services" id="services">
+      <h1 class="title">Services</h1>
+      <div class="services-content">
+        <div class="services-img" data-aos="flip-left">
+          <img src="imges/1694064673043.svg" alt="" />
+          <h1 class="title">Deliver is faster</h1>
+        </div>
+        <div class="services-img" data-aos="flip-left">
+          <img src="imges/1694064673017.svg" alt="" />
+          <h1 class="title">Less Money</h1>
+        </div>
+        <div class="services-img" data-aos="flip-right">
+          <img src="imges/1694064672992.svg" alt="" />
+          <h1 class="title">High Quality</h1>
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+
+    <!-- start contact -->
+    <section id="contact">
+      <h1 class="title">Contact</h1>
+      <form data-aos="zoom-in">
+        <div class="col-1">
+          <input
+            type="text"
+            name="Name"
+            id="Name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="Email"
+            name="Email"
+            id="Email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Phone Number"
+            required
+          />
+        </div>
+        <div class="col-2">
+          <textarea name="text" id="message" cols="30" rows="5" class="message">
+Message ...</textarea
+          >
+          <button type="submit" value="Send">Send</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer>
+      <p>
+        &copy; 2023 <span class="title">Awasir AbdulHadi</span> All Right
+        Reserved
+      </p>
+      <a>
+        <img src="imges/wats.png" alt="" />
+        +249123230000
+      </a>
+    </footer>
+    <!-- end footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1500 });
+    </script>
+  </body>
+</html>
